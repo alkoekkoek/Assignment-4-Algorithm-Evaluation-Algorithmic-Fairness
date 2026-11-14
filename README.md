@@ -1,4 +1,4 @@
-# Assignment-4-Paper-Review-and-Algorithm-Evaluation-Algorithmic-Fairness
+# Assignment-Algorithm-Evaluation-Algorithmic-Fairness
 For this assignment I evaluate the effectiveness of the bias-mitigation algorithm reweighing as described by Kamiran and Calders (2012). For my code I used the AIF360 github: https://github.com/Trusted-AI/AIF360/tree/main. Specifically, I adapted/used code from two examples that use reweighing provided by the github: 
 - https://github.com/Trusted-AI/AIF360/blob/main/examples/tutorial_credit_scoring.ipynb
 - https://github.com/Trusted-AI/AIF360/blob/main/examples/demo_reweighing_preproc.ipynb
