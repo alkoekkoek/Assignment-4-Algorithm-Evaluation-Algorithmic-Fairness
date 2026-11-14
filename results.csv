@@ -1,0 +1,10 @@
+dataset,stage,DP_diff,DIR,Consistency,Accuracy,Balanced accuracy
+Adult,before (original labels),0.199,0.363,0.768,,
+Adult,"Baseline, no reweighing (test predictions)",0.179,0.318,0.804,0.847,0.765
+Adult,After reweighing (test predictions),0.083,0.619,0.816,0.839,0.746
+German,before (original labels),0.129,0.821,0.681,,
+German,"Baseline, no reweighing (test predictions)",0.045,0.945,0.731,0.753,0.659
+German,After reweighing (test predictions),-0.008,1.01,0.728,0.74,0.646
+COMPAS,before (original labels),0.128,0.803,0.674,,
+COMPAS,"Baseline, no reweighing (test predictions)",0.254,0.687,0.868,0.677,0.669
+COMPAS,After reweighing (test predictions),0.064,0.902,0.866,0.667,0.659
