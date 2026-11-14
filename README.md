@@ -12,7 +12,7 @@ For this assignment I evaluate the effectiveness of the bias-mitigation algorith
 - Train/test split: 70/30 (train/test), stratified on the class labels, `random_state=0`.
 - Reweighing: AIF360 `Reweighing`, fitted on the training set only (no parameters).
 - Classifier: scikit-learn `LogisticRegression` with default settings, features scaled with `StandardScaler` (fitted on the training set only), default decision threshold 0.5.
-- DP_Diff is reported as P(Y=1 | privileged) − P(Y=1 | unprivileged), instead of P(Y=1 | unprivileged) - P(Y=1 | privileged) (sign flipped to make DP_diff similar to Kamiran & Calders).
+- DP_Diff is reported as P(Y=1 | privileged) − P(Y=1 | unprivileged), instead of P(Y=1 | unprivileged) - P(Y=1 | privileged) (sign flipped to make DP_diff similar to Kamiran & Calders(2012)).
 
 ## Downloading the data
 I evaluated the effectiveness of reweighing on three datasets, which are downloaded in the python notebook from UCI and ProPublica and placed in AIF360's data folders.
